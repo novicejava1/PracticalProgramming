@@ -1,0 +1,20 @@
+#:kivy 2.0.0
+
+<MyBoxLayout>:
+    
+    orientation: 'vertical'
+
+    b1: button1
+    b2: button2
+
+    Button:
+        id: button1
+        text: "Hit Me"
+        size_hint: .5, .5
+        on_press: root.callme()
+    
+    Button:
+        id: button2
+        text: "Click Me"
+        size_hint: .5, .5
+        on_press: root.pinchme()       

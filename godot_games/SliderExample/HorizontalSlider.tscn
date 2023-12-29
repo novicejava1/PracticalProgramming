@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Slider.tscn" type="PackedScene" id=1]
+
+[node name="HorizontalSlider" type="Node2D"]
+
+[node name="Slider1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 256 )
+
+[node name="Slider2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 384 )
+
+[node name="Slider3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 128 )

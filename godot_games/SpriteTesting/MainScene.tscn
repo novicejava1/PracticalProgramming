@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://godo.tscn" type="PackedScene" id=1]
+
+[node name="MainScene" type="Node"]
+
+[node name="godo" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 104 )
+
+[node name="godo3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 288 )
+
+[node name="godo2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 488, 472 )

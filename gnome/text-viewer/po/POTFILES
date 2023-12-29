@@ -1,0 +1,6 @@
+data/com.stack.TextViewer.desktop.in
+data/com.stack.TextViewer.appdata.xml.in
+data/com.stack.TextViewer.gschema.xml
+src/main.c
+src/text-viewer-window.c
+src/text-viewer-window.ui

@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+margin_left = 450.0
+margin_top = 288.0
+margin_right = 535.0
+margin_bottom = 302.0
+text = "Hello Godot!!"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 17.0
+margin_top = 43.0
+margin_right = 76.0
+margin_bottom = 57.0
+text = "Pinch Me"

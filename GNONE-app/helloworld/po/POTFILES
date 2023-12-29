@@ -1,0 +1,7 @@
+data/com.stack.helloworld.desktop.in
+data/com.stack.helloworld.appdata.xml.in
+data/com.stack.helloworld.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

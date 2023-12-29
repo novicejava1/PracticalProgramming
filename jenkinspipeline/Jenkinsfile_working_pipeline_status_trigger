@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+       stage('gitlab') {
+          steps {
+		gitlabCommitStatus('Check tools') {
+			sh 'echo "testing gitlab post status testingg getting to it"'
+		}
+          }
+       }
+    }
+}

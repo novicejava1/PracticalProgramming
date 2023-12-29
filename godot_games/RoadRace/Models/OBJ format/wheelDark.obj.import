@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wheelDark.obj-78c743b3c2863524e4187fc08ea303ae.mesh"
+
+[deps]
+
+files=[ "res://.import/wheelDark.obj-78c743b3c2863524e4187fc08ea303ae.mesh" ]
+
+source_file="res://Models/OBJ format/wheelDark.obj"
+dest_files=[ "res://.import/wheelDark.obj-78c743b3c2863524e4187fc08ea303ae.mesh", "res://.import/wheelDark.obj-78c743b3c2863524e4187fc08ea303ae.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

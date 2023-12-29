@@ -1,0 +1,33 @@
+import sys
+
+print(sys.argv[0])
+data = input("Enter the number : ")
+zero = ["**", "****", "**"]
+one = ["*", "*", "*"]
+two = ["**", "* ", "**"]
+three = ["**", " *", "**"]
+bigdigit = (zero, one, two, three,)
+
+try:
+    number = int(data)
+    print(number)
+    for each in str(number):
+        if each == "0":
+            print("printing 0")
+            for pattern in zero:
+                print(pattern)
+        elif each == "1":
+            print("printing 1")
+            for pattern in one:
+                print(pattern)
+        elif each == "2":
+            print("printing 2")
+            for pattern in two:
+                print(pattern)
+        else:
+            print("printing 3")
+            for pattern in three:
+                print(pattern)
+except ValueError as err:
+    print(err)
+

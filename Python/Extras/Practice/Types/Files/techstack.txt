@@ -1,0 +1,19 @@
+Websphere Application Server
+Tomcat Container
+IBM HTTP server
+Nginx Server
+Jenkins Build
+JFrog Artifactory
+Sonarqube
+Docker Container
+Kubernetes Orchestration
+InfluxDB Chronograf
+Elastic Stack
+InfluxDB Chronograf
+Elastic Stack
+InfluxDB Chronograf
+Elastic Stack
+InfluxDB Chronograf
+Elastic Stack
+InfluxDB Chronograf
+Elastic Stack

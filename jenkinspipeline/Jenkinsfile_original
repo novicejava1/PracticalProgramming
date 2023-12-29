@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building with a Jenkins Trigger..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing with a Jenkins Trigger..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying with a Jenkins Trigger....'
+            }
+        }
+	stage('gitlab') {
+             steps {
+             	echo 'Notify GitLab'
+             	updateGitlabCommitStatus name: 'build', state: 'pending'
+             	updateGitlabCommitStatus name: 'build', state: 'success'
+          }
+       }
+    }
+}

@@ -1,0 +1,14 @@
+{% if jsonitems %}
+    <ul>
+    {% for k, v in jsonitems.items %}
+    <table>
+	<tr><th> CVE Item </th></tr>
+	<tr>
+		<td>{{ v._source }}</td>
+	</tr>
+    </table>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No CVE data available</p>
+{% endif %}

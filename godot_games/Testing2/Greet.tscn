@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+margin_left = 448.0
+margin_top = 304.0
+margin_right = 573.0
+margin_bottom = 318.0
+text = "Teddy Honey Game"
+align = 1
